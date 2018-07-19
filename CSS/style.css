@@ -1,0 +1,46 @@
+*{
+	text-align:right;
+}
+
+body {
+	background-image: url(texture.jpg);
+	background-size: cover;
+}
+h2 + p{
+	color: red;
+	text-align: center;
+	border: 5px solid black;
+	cursor: pointer;
+}
+
+
+p{
+	line-height: 40px;
+	font-size: 200%;
+	color: green;
+	/*font-family: 'Quicksand', sans-serif;*/
+	/*font-family: 'Teko', sans-serif;*/
+	font-family: 'Rajdhani', sans-serif;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+
+.webtext:first-child{
+	border: 5px dashed green;
+}
+
+.active {
+	color: red;
+}
+
+#div1{
+	background:rgba(0,0,255,0.25);
+}
+
+#div2{
+	background: rgba(255,0,0,0.25);
+}
