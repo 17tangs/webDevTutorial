@@ -1,0 +1,25 @@
+/* Selector {
+Property: value;
+}*/
+
+body{
+    background-image: url("img.jpg");
+    background-size: cover;
+}
+h2 {
+    color: red;
+    text-align: center;
+    border: 5px solid purple;
+    color: red;
+    cursor: pointer;
+}
+
+
+p {
+    color: green;
+}
+
+li {
+    list-style: none;
+    
+}
