@@ -28,23 +28,28 @@ const array = [
 ];
 
 //Create an array using forEach that has all the usernames with a "!" to each of the usernames
-
+array.forEach((obj,i) => {
+  obj.username+='!';
+});
 
 //Create an array using map that has all the usernames with a "? to each of the usernames
-
+qa = array.map((obj) => {
+  obj.username += "?";
+  return obj;
+});
 
 //Filter the array to only include users who are on team: red
-
+fa = array.filter((obj) => obj.team === "red");
 
 //Find out the total score of all users using reduce
+re = array.reduce((accumulator, obj) => accumulator += obj.score, 0);
 
 // (1), what is the value of i?
 // (2), Make this map function pure:
 const arrayNum = [1, 2, 4, 5, 8, 9];
 const newArray = arrayNum.map((num, i) => {
-	console.log(num, i);
-	alert(num);
 	return num * 2;
 })
 
 //BONUS: create a new list with all user information, but add "!" to the end of each items they own.
+n = array.map(obj => { obj.items = obj.items.map(item => item + '!'); return obj;});

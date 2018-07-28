@@ -28,4 +28,5 @@ let obj = {
   the: 'raindeer'
 }
 // to this:
-'my name is Rudolf the raindeer'
+//'my name is Rudolf the raindeer'
+let s = Object.entries(obj).map(value => value.join(" ")).join(' ');

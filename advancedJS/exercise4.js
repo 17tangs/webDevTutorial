@@ -1,6 +1,9 @@
 //Solve these problems:
 
 //#1 Create a one line function that adds adds two parameters
+const add = (x,y) => x+y;
+add(3,5);
+
 
 //Closure: What does the last line return?
 const addTo = x => y => x + y
@@ -26,3 +29,4 @@ const add5 = (num) => num + 5;
 compose(add1, add5)(10)
 
 //What are the two elements of a pure function?
+//deterministic and no side effects
